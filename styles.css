@@ -20,7 +20,7 @@ ul {   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     height: 5px;
     list-style-type: none;
     align-items: center;
-   background-color: rgb(229, 155, 70); width: 1000px; height: 85px;
+   background-color: rgb(229, 155, 70); width: 1000px; height: 85px;opacity: 50%;
 }
 
 
@@ -37,6 +37,7 @@ text-align: center;
     justify-content: center;
     align-items: center;
     width: 500px;
+    
 
 }
 
@@ -62,5 +63,11 @@ height: 110px;
     align-items: center;
     height: 110px;
 
-
 }
+
+
+
+
+
+  
+

@@ -1,0 +1,7 @@
+body {
+    background-image: url('./images/300ppi/Asset\ 1.png'); 
+    background-position: 7000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
