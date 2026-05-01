@@ -15,13 +15,42 @@
 <li><a href="index.html">HOME</a></li>
 <li> <a href="./about.html"> ABOUT</a></li>
 <li> <a href="contact.html"> CONTACT</a></li>
-
-
     </ul>
     <h1>Genesis's 2026 Portfolio!</h1> 
   <img id="profile-pic" src="./images/profilepic.svg" alt="" width="650px">
-  <img src="./images/300ppi/Asset 5.png" alt="" width="300px">
+  
 
-<!-- main -->
+<!-- Image Scroll -->
+<div class="gallery">
+  <!-- Radio buttons (hidden) -->
+  <input type="radio" name="slides" id="img1" checked>
+  <input type="radio" name="slides" id="img2">
+  <input type="radio" name="slides" id="img3">
+
+  <!-- Image 1 & its click trigger -->
+  <div class="slide s1">
+    <img src="images/300ppi/300ppi/300ppi/BSU.png">
+    <label for="img2" class="next-btn"></label>
+  </div>
+
+  <!-- Image 2 & its click trigger -->
+  <div class="slide s2">
+    <img src="images/300ppi/300ppi/Poster.png">
+    <label for="img3" class="next-btn"></label>
+  </div>
+
+  <!-- Image 3 & its click trigger (loops back to 1) -->
+  <div class="slide s3">
+    <img src="images/300ppi/HHM.png">
+    <label for="img1" class="next-btn"></label>
+  </div>
+</div>
+
+<!-- logo -->
+<div>
+
+  <img src="./images/300ppi/Asset 5.png" alt="" width="300px">
+</div>
+
 </body>
 </html>

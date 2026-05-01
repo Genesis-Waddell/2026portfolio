@@ -41,13 +41,7 @@ text-align: center;
 
 }
 
-img {
-    flex-direction: row; justify-content: center;
-   
-    width: 250px;
 
-
-}
 
 #main {
 display: flex;
@@ -64,6 +58,50 @@ height: 110px;
     height: 110px;
 
 }
+
+.gallery {
+  position: relative;
+  width: 600px;
+  height: 850px;
+  overflow: hidden;
+}
+
+/* Hide the actual radio buttons */
+input[type="radio"] {
+  display: none;
+}
+
+/* Base style for all slides */
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: none; /* Hide by default */
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* The click area - invisible but covers the whole image */
+.next-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+/* Show the specific slide when its radio is checked */
+#img1:checked ~ .s1,
+#img2:checked ~ .s2,
+#img3:checked ~ .s3 {
+  display: block;
+}
+
 
 
 
