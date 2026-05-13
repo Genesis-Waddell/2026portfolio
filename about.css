@@ -5,3 +5,25 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+  img {
+width: 400px;
+}
+
+.nav {
+  display : flex
+
+}
+
+ul {   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  position: relative; /* z-index only works if position is set */
+  z-index: 10;
+  width: 1000px;
+  height: 5px;
+  list-style-type: none;
+  align-items: center;
+ background-color: rgb(229, 155, 70); width: 1000px; height: 85px;opacity: 50%;
+}

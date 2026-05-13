@@ -24,6 +24,8 @@ ul {   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
+    position: relative; /* z-index only works if position is set */
+    z-index: 10;
     width: 1000px;
     height: 5px;
     list-style-type: none;

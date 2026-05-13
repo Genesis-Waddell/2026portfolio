@@ -1,3 +1,9 @@
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
     background-image: url('./images/300ppi/Asset\ 1.png'); 
     background-position: 7000px;
@@ -5,3 +11,30 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+  .nav {
+    display : flex
+
+  }
+
+ul {   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    position: relative; /* z-index only works if position is set */
+    z-index: 10;
+    width: 1000px;
+    height: 5px;
+    list-style-type: none;
+    align-items: center;
+   background-color: rgb(229, 155, 70); width: 1000px; height: 85px;opacity: 50%;
+}
+
+p {
+ font-family: "Permanent Marker";
+ color: peru;
+ background-color: azure;
+ width: 100px;
+text-align: center;
+
+}
