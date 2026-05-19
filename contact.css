@@ -34,8 +34,9 @@ p {
  font-family: "Permanent Marker";
  color: peru;
  background-color: azure;
-width: 500px;
-text-align: center;
+width: 100px;
+display: block;
+  margin: 0 auto;
 
 }
 
