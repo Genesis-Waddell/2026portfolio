@@ -29,3 +29,8 @@ ul {   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
   align-items: center;
  background-color: rgb(229, 155, 70); width: 1000px; height: 85px;opacity: 50%;
 }
+
+#logo {
+
+  width: 200px;
+}
