@@ -7,11 +7,12 @@
 
 
 body {
-    background-image: url('./images/300ppi/Asset\ 1.png'); 
-    background-position: 7000px;
+    background-image: url('https://i.redd.it/i-made-all-the-stars-so-they-are-not-cut-off-call-me-if-you-v0-2i5f5945wm571.png?width=4959&format=png&auto=webp&s=9dddb4b3d4126c4e620dd65a15f4d7958b0f1cbb');
+    background-size: 2000px;
     display: flex;
     justify-content: center;
     align-items: center;
+   
   }
   
 
