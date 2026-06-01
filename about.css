@@ -31,6 +31,14 @@ ul {   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
 
 #logo {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-evenly; 
+  position: absolute; /* Breaks free from container limits */
+  top: 9px; /* Positions it exactly 10px from the top of the page */
+  left: 400px;
+  z-index: 10; 
+  height: 120px;
+  width: 120px ;
 
-  width: 200px;
 }
