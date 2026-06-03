@@ -20,7 +20,7 @@ body {
 ul {   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     display: flex;
     border-radius: 20px; 
-    flex-direction: row;
+   flex-direction: row;
     justify-content:space-evenly;
     position: relative; /* z-index only works if position is set */
     z-index: 10;
@@ -28,7 +28,8 @@ ul {   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     height: 5px;
     list-style-type: none;
     align-items: center;
-   background-color: rgb(229, 155, 70); width: 1000px; height: 85px;opacity: 50%;
+   background-color: #c59b6d;
+    width: 1000px; height: 85px;opacity: 70%;
 }
 
 p {

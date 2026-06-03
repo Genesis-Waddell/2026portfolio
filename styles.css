@@ -35,14 +35,15 @@ ul {   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     height: 5px;
     list-style-type: none;
     align-items: center;
-   background-color: rgb(229, 155, 70); width: 1000px; height: 85px;opacity: 50%;
+   background-color: #c59b6d;
+    width: 1000px; height: 85px;opacity: 70%;
 }
 
 
 
 
   h1 {
-color: peru;
+color: #c59b6d;
 
   font-family: "Permanent Marker", cursive;
   font-weight: 400;
@@ -89,7 +90,7 @@ height: 110px;
 }
 
 .gallery {
-  border: 4px solid peru;
+  border: 4px solid #c59b6d;
   padding: 2px;
   background-color: white;
   position: relative;

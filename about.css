@@ -28,7 +28,8 @@ ul {   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
   list-style-type: none;
   align-items: center;
   border-radius: 20px; 
-   background-color: rgb(229, 155, 70); width: 1000px; height: 85px;opacity: 50%;
+   background-color: #c59b6d;
+    width: 1000px; height: 85px; opacity: 70%;
 }
 
 #logo {
