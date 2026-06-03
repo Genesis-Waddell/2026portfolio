@@ -42,3 +42,23 @@ ul {   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
   width: 120px ;
 
 }
+
+#resume {
+  position: absolute; /* Breaks free from container limits */
+  top: 125px;
+  left: 340px;
+ 
+
+
+}
+
+#about {
+
+  position: absolute; /* Breaks free from container limits */
+  top: 125px;
+  right: 380px;
+  height: 500px;
+  width: 350px;
+ 
+
+}
