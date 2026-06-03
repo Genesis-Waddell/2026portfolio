@@ -17,7 +17,8 @@ body {
   
 
 .nav {
-    display : flex
+    display : flex ;
+    
 
   }
 
@@ -28,6 +29,9 @@ ul {   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     position: relative; /* z-index only works if position is set */
     z-index: 10;
     width: 1000px;
+    
+  border-radius: 20px; 
+   
     height: 5px;
     list-style-type: none;
     align-items: center;
